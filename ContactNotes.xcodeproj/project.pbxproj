@@ -15,6 +15,7 @@
 		F471C30C1EE0F72400A24BD7 /* ContactPersonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C30B1EE0F72400A24BD7 /* ContactPersonDataSource.swift */; };
 		F471C30E1EE0FB9100A24BD7 /* AddressBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C30D1EE0FB9100A24BD7 /* AddressBookTableViewController.swift */; };
 		F471C3101EE1FC4E00A24BD7 /* ContactDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C30F1EE1FC4E00A24BD7 /* ContactDetailsTableViewController.swift */; };
+		F471C3121EE205F600A24BD7 /* AddNewContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C3111EE205F600A24BD7 /* AddNewContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F471C30B1EE0F72400A24BD7 /* ContactPersonDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactPersonDataSource.swift; path = ../ContactPersonDataSource.swift; sourceTree = "<group>"; };
 		F471C30D1EE0FB9100A24BD7 /* AddressBookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressBookTableViewController.swift; path = ../AddressBookTableViewController.swift; sourceTree = "<group>"; };
 		F471C30F1EE1FC4E00A24BD7 /* ContactDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsTableViewController.swift; sourceTree = "<group>"; };
+		F471C3111EE205F600A24BD7 /* AddNewContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,9 @@
 				F471C30B1EE0F72400A24BD7 /* ContactPersonDataSource.swift */,
 				F471C30D1EE0FB9100A24BD7 /* AddressBookTableViewController.swift */,
 				F471C30F1EE1FC4E00A24BD7 /* ContactDetailsTableViewController.swift */,
-				F471C2FB1EE0DE1800A24BD7 /* Main.storyboard */,
+				F471C3111EE205F600A24BD7 /* AddNewContactTableViewController.swift */,
 				F471C2FE1EE0DE1800A24BD7 /* Assets.xcassets */,
+				F471C2FB1EE0DE1800A24BD7 /* Main.storyboard */,
 				F471C3001EE0DE1800A24BD7 /* LaunchScreen.storyboard */,
 				F471C3031EE0DE1800A24BD7 /* Info.plist */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F471C3101EE1FC4E00A24BD7 /* ContactDetailsTableViewController.swift in Sources */,
+				F471C3121EE205F600A24BD7 /* AddNewContactTableViewController.swift in Sources */,
 				F471C2F81EE0DE1800A24BD7 /* AppDelegate.swift in Sources */,
 				F471C30C1EE0F72400A24BD7 /* ContactPersonDataSource.swift in Sources */,
 				F471C30A1EE0F53400A24BD7 /* ContactPerson.swift in Sources */,
