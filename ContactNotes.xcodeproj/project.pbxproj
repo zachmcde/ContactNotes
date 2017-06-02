@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F471C2F81EE0DE1800A24BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C2F71EE0DE1800A24BD7 /* AppDelegate.swift */; };
-		F471C2FA1EE0DE1800A24BD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C2F91EE0DE1800A24BD7 /* ViewController.swift */; };
 		F471C2FD1EE0DE1800A24BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F471C2FB1EE0DE1800A24BD7 /* Main.storyboard */; };
 		F471C2FF1EE0DE1800A24BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F471C2FE1EE0DE1800A24BD7 /* Assets.xcassets */; };
 		F471C3021EE0DE1800A24BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F471C3001EE0DE1800A24BD7 /* LaunchScreen.storyboard */; };
+		F471C30A1EE0F53400A24BD7 /* ContactPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C3091EE0F53400A24BD7 /* ContactPerson.swift */; };
+		F471C30C1EE0F72400A24BD7 /* ContactPersonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C30B1EE0F72400A24BD7 /* ContactPersonDataSource.swift */; };
+		F471C30E1EE0FB9100A24BD7 /* AddressBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471C30D1EE0FB9100A24BD7 /* AddressBookTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F471C2F41EE0DE1800A24BD7 /* ContactNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F471C2F71EE0DE1800A24BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F471C2F91EE0DE1800A24BD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F471C2FC1EE0DE1800A24BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F471C2FE1EE0DE1800A24BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F471C3011EE0DE1800A24BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F471C3031EE0DE1800A24BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F471C3091EE0F53400A24BD7 /* ContactPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactPerson.swift; path = ../ContactPerson.swift; sourceTree = "<group>"; };
+		F471C30B1EE0F72400A24BD7 /* ContactPersonDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactPersonDataSource.swift; path = ../ContactPersonDataSource.swift; sourceTree = "<group>"; };
+		F471C30D1EE0FB9100A24BD7 /* AddressBookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressBookTableViewController.swift; path = ../AddressBookTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				F471C2F71EE0DE1800A24BD7 /* AppDelegate.swift */,
-				F471C2F91EE0DE1800A24BD7 /* ViewController.swift */,
+				F471C3091EE0F53400A24BD7 /* ContactPerson.swift */,
+				F471C30D1EE0FB9100A24BD7 /* AddressBookTableViewController.swift */,
+				F471C30B1EE0F72400A24BD7 /* ContactPersonDataSource.swift */,
 				F471C2FB1EE0DE1800A24BD7 /* Main.storyboard */,
 				F471C2FE1EE0DE1800A24BD7 /* Assets.xcassets */,
 				F471C3001EE0DE1800A24BD7 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F471C2FA1EE0DE1800A24BD7 /* ViewController.swift in Sources */,
 				F471C2F81EE0DE1800A24BD7 /* AppDelegate.swift in Sources */,
+				F471C30C1EE0F72400A24BD7 /* ContactPersonDataSource.swift in Sources */,
+				F471C30A1EE0F53400A24BD7 /* ContactPerson.swift in Sources */,
+				F471C30E1EE0FB9100A24BD7 /* AddressBookTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				F471C3081EE0DE1800A24BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
